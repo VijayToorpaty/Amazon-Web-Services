@@ -22,3 +22,15 @@ IAM Console Password
 ====================
 - A password that the user can enter to sign into interactive sessions such as the
 AWS Management Console
+- You can allow users to change their own passwords
+- You can allow selected IAM users to change their passwords by disabling the option
+for all users and using an IAM policy to grant permissions for the selected users
+
+
+IAM Server Certificate / Signing Certificate
+============================================
+- SSL/TLS certificates that you can use to authenticate with some AWS services
+- AWS recommends that you use the AWS Certificate Manager (ACM) to provision, 
+manage and deploy your server certificates
+- Use IAM only when you must support HTTPS connections in a region that is not
+supported by ACM
