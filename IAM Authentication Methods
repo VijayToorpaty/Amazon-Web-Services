@@ -1,0 +1,24 @@
+IAM Authentication methods are 3 types
+1. Access Key
+2. Console Password
+3. Signing Certificate
+
+
+Access Key
+==========
+- Access Key is used for API
+- Access Key is a comnbination of an access key ID and a secret access key
+- These can be used to make programmatic calls to AWS when using the API in program code or at a command prompt when using the AWS CLI 
+  or the AWS power shell tools.
+- You can create, modify, view or rotate access key using the command prompt
+- When created IAM returns the access key ID and secret access key.
+- The secret access key is returned only at the creation time and if lost a new key must be created.
+- Ensure access keys and secret keys are stored securely
+- Users can be given access to change their own keys through IAM policy (not from the console). 
+- You can disable a user’s access key which prevents it from being used for API calls
+
+
+IAM Console Password
+====================
+- A password that the user can enter to sign into interactive sessions such as the
+AWS Management Console
