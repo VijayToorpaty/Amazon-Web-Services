@@ -1,0 +1,27 @@
+Region
+======
+A geographical area with 2 or more availability zones(AZz), isolated from othher 
+AWS regions.
+         
+Availability Zone (AZ)
+======================
+One or more data centers that are physically separate and isolated from other AZs.
+
+
+Edge Location
+=============
+A location with a cache of content that can be delivered at low latency to users - used
+by CloudFront
+
+
+Regional Edge Cache
+===================
+Also part of the CloudFront network. There are larger caches that sit between AWS services
+and Edge Locations.
+
+
+Global Network
+==============
+Highly available, low-latency private global network interconnecting every data center,
+AZ and AWS region.
+
