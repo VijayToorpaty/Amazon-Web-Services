@@ -1,0 +1,13 @@
+- Choose EC2 under AWS Management Console
+- Choose the region - Sydney at the top right corner
+- Click on Launch instance
+- Select the free tier one - the first one
+- Click Next on the bottom right of the screen
+- Number of instances - Choose 1 and then click next at the bottom right side of the screen
+- Click next again
+- Under configure security group, choose security group name and description as Web-Access
+- Click on Review and Launch on the bottom right of the screen
+- Click on Launch 
+- On the pop up window choose a new key pair and download it.
+- Then Click on launch instances
+- Under EC2 Management Console we can see the Instance running
